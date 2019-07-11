@@ -12,6 +12,6 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <flow name="mavendemoFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <logger message="request recieved" level="INFO" doc:name="Logger"/>
-        <set-payload value="#['gone']" doc:name="Set Payload"/>
+        <set-payload value="#['jenkins working fine']" doc:name="Set Payload"/>
     </flow>
 </mule>
