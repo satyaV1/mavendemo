@@ -127,7 +127,7 @@
 					<region>${region}</region>
 					<targetType>server</targetType>
 					<redeploy>true</redeploy>
-					<applicationName>mulece-maven-jenkins-cloudhub</applicationName>
+					<applicationName>mavendemo</applicationName>
 					<workerType>${worker.type}</workerType>
 					<properties>
 						<env>${env}</env>								
